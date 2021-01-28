@@ -5,7 +5,8 @@
 #
 
 # @lc code=start
-   def pivotIndex(self, nums: List[int]) -> int:
+class Solution:
+    def pivotIndex(self, nums: List[int]) -> int:
        n = len(nums)
        sumAll = sum(nums)
        sumHalf = 0
